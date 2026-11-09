@@ -5,6 +5,8 @@
 * **Universidad / Institución:** Universidad Americana
 * **Asignatura:** Fundamentos de Mecatrónica
 * **Docente / Profesor:** Eduardo Pimienta Leon
+* **Semestre / Grupo:** Grupo 3A
+* **Año:** 2026
 * **Estudiantes / Integrantes:**  
   * Sebastian De Luque
   * Camilo Martinez
@@ -12,9 +14,6 @@
   * Sebastian Martinez
   * Yeimer Ortiz
   * Alberto Fandino
-
-* **Semestre / Grupo:** Grupo 3A
-* **Año:** 2026
 
 
 
