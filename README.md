@@ -48,29 +48,12 @@ GPIO23 del ESP32 --- [ 220 ohmios ] --- |>| --- GND del ESP32
                                    anodo -> catodo
 ```
 
-## 3. Conexión del circuito LED
+## 4. Conexión del circuito LED
 
 1. Ubica el pin GPIO 23 (o GPIO 18 si aplicas la variante del Reto 1).
 2. Conecta un cable desde dicho pin hacia una terminal de la resistencia de 220 Ω.
 3. Conecta el otro extremo de la resistencia a la pata larga (Ánodo +) del LED.
 4. Conecta la pata corta (Cátodo -) del LED directamente a una línea de GND.
-
-## 4. Evidencias del proyecto
-
-A continuación, se presentan las evidencias del montaje físico, el esquema eléctrico y las pruebas de funcionamiento del proyecto.
-
-
-### **4.1. Esquema eléctrico**
-
-![Esquema eléctrico del proyecto](./Evidencias/Esquema.png)
-
-### **4.2. Evidencia del funcionamiento de los botones**
-
-![Prueba de encendido y apagado del LED](./Evidencias/Foto_Encender_Apagar.png)
-
-### **4.3. Montaje físico del circuito**
-
-![Montaje físico del ESP32 y LED](./Evidencias/Foto_Fisico.png)
 
 ## **5. Código Fuente del Proyecto**
 
@@ -81,7 +64,7 @@ El código fuente completo con la resolución de los tres retos de programación
 Este archivo contiene la programación del ESP32, la configuración de la red Wi-Fi, el servidor web y la lógica de control del LED.
 
 
-## 6. Detalle y Explicación de los Retos de Programación
+## 5. Detalle y Explicación de los Retos de Programación
 
 ### Reto 1: Identidad propia de la red y personalización de hardware
 
@@ -143,7 +126,7 @@ millis() - tiempoEncendido >= 10000
 
 Si se cumple, el LED se apaga digitalmente. Si el usuario vuelve a encender el LED antes de cumplirse el plazo, el cronómetro se reinicia de inmediato.
 
-## 7. Instrucciones de Validación y Prueba
+## 6. Instrucciones de Validación y Prueba
 
 1. Conecta los componentes en la protoboard respetando el diagrama serie con la resistencia de 220 Ω.
 
@@ -156,3 +139,21 @@ Si se cumple, el LED se apaga digitalmente. Si el usuario vuelve a encender el L
    `http://192.168.4.1`
 
 5. Interactúa con el botón de control para verificar el funcionamiento del LED físico, la respuesta del servidor y el autoapagado transcurridos los 10 segundos.
+
+## 7. Evidencias del proyecto
+
+A continuación, se presentan las evidencias del montaje físico, el esquema eléctrico y las pruebas de funcionamiento del proyecto.
+
+
+### **4.1. Esquema eléctrico**
+
+![Esquema eléctrico del proyecto](./Evidencias/Esquema.png)
+
+### **4.2. Evidencia del funcionamiento de los botones**
+
+![Prueba de encendido y apagado del LED](./Evidencias/Foto_Encender_Apagar.png)
+
+### **4.3. Montaje físico del circuito**
+
+![Montaje físico del ESP32 y LED](./Evidencias/Foto_Fisico.png)
+
