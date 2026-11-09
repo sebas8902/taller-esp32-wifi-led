@@ -59,7 +59,7 @@ GPIO23 del ESP32 --- [ 220 ohmios ] --- |>| --- GND del ESP32
 
 El código fuente completo con la resolución de los tres retos de programación se encuentra disponible en el siguiente archivo:
 
-**[Ver código fuente completo (codigo_led.ino)](./codigo_led.ino)**
+**[Ver código fuente completo](./codigo_led.ino)**
 
 Este archivo contiene la programación del ESP32, la configuración de la red Wi-Fi, el servidor web y la lógica de control del LED.
 
