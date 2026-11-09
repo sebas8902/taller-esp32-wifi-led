@@ -55,13 +55,33 @@ GPIO23 del ESP32 --- [ 220 ohmios ] --- |>| --- GND del ESP32
 3. Conecta el otro extremo de la resistencia a la pata larga (Ánodo +) del LED.
 4. Conecta la pata corta (Cátodo -) del LED directamente a una línea de GND.
 
-## 4. Código Fuente del Proyecto
+## 4. Evidencias del proyecto
 
-El código fuente completo con la resolución de los tres retos se encuentra alojado en la siguiente ruta del repositorio:
+A continuación, se presentan las evidencias del montaje físico, el esquema eléctrico y las pruebas de funcionamiento del proyecto.
 
-**Ver Código Fuente del Proyecto**
 
-## 5. Detalle y Explicación de los Retos de Programación
+### **4.1. Esquema eléctrico**
+
+![Esquema eléctrico del proyecto](./Evidencias/Esquema.png)
+
+### **4.2. Evidencia del funcionamiento de los botones**
+
+![Prueba de encendido y apagado del LED](./Evidencias/Foto_Encender_Apagar.jpeg)
+
+### **4.3. Montaje físico del circuito**
+
+![Montaje físico del ESP32 y LED](./Evidencias/Foto_Fisico.jpeg)
+
+## **5. Código Fuente del Proyecto**
+
+El código fuente completo con la resolución de los tres retos de programación se encuentra disponible en el siguiente archivo:
+
+**[Ver código fuente completo (codigo_led.ino)](./codigo_led.ino)**
+
+Este archivo contiene la programación del ESP32, la configuración de la red Wi-Fi, el servidor web y la lógica de control del LED.
+
+
+## 6. Detalle y Explicación de los Retos de Programación
 
 ### Reto 1: Identidad propia de la red y personalización de hardware
 
@@ -123,7 +143,7 @@ millis() - tiempoEncendido >= 10000
 
 Si se cumple, el LED se apaga digitalmente. Si el usuario vuelve a encender el LED antes de cumplirse el plazo, el cronómetro se reinicia de inmediato.
 
-## 6. Instrucciones de Validación y Prueba
+## 7. Instrucciones de Validación y Prueba
 
 1. Conecta los componentes en la protoboard respetando el diagrama serie con la resistencia de 220 Ω.
 
