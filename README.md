@@ -66,11 +66,11 @@ A continuación, se presentan las evidencias del montaje físico, el esquema el�
 
 ### **4.2. Evidencia del funcionamiento de los botones**
 
-![Prueba de encendido y apagado del LED](./Evidencias/Foto_Encender_Apagar.jpeg)
+![Prueba de encendido y apagado del LED](./Evidencias/Foto_Encender_Apagar.png)
 
 ### **4.3. Montaje físico del circuito**
 
-![Montaje físico del ESP32 y LED](./Evidencias/Foto_Fisico.jpeg)
+![Montaje físico del ESP32 y LED](./Evidencias/Foto_Fisico.png)
 
 ## **5. Código Fuente del Proyecto**
 
